@@ -1,0 +1,189 @@
+Product details
+a:hover {
+  text-decoration: none !important;
+}
+.link-cart-item {
+  flex: 2;
+  height: 48px !important ;
+}
+.remove-pl{
+  padding-left: 0px !important;
+}
+.card {
+  width: 24%;
+}
+h1 {
+  text-align: center;
+}
+.infor_order {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.wrap-product-details-app {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap-product-details {
+  height: 100%;
+}
+.main_product {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+}
+
+.img-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sell-out {
+  display: flex;
+  margin-left: 155px;
+  color: grey;
+}
+.line {
+  width: 2px;
+  height: 20px;
+  background-color: grey;
+  margin: 2px 5px 2px 5px;
+  display: block;
+}
+.sell-out-left {
+  font-weight: 500;
+}
+.price_quantity {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.price_quantity-left {
+  display: flex;
+  align-items: center;
+}
+.price_quantity-right {
+  display: flex;
+  align-items: center;
+}
+.decrement-count {
+  margin-right: 15px;
+  width: 30px;
+  border-radius: 50% 50% 50% 50%;
+  color: grey;
+}
+.number-count {
+  margin-right: 15px;
+  padding-top: 4px;
+}
+.increment-count {
+  border-radius: 50% 50% 50% 50%;
+  width: 30px;
+  background-color: red;
+  color: #fff;
+}
+.text_infor {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+.name_number {
+  margin-right: 196px;
+  text-align: left;
+}
+.address {
+  margin-left: 250px;
+  font-size: 25px;
+  flex-wrap: wrap;
+  margin-right: 100px;
+}
+.quantity {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+/* .tong{
+  margin-right: 20px;
+} */
+
+.fee_ship {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.voucher {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.total {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.payment {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.payment-button {
+  width: 60%;
+  height: 50px;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.payment:hover {
+  transform: scale(0.9);
+}
+.card-inner {
+  margin-left: 4rem;
+}
+.container {
+  background-color: transparent !important;
+}
+
+.hiddenRow {
+  padding: 0 !important;
+}
+/* end product detail */
+textarea#exampleText {
+  height: 100px;
+}
+.btn-success {
+  color: #fff !important;
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+
+.btn-danger {
+  color: #fff !important;
+  background-color: red !important;
+  border-color: red !important;
+}
+
+.rounded.pos-right {
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  z-index: 2;
+}
+
+.back-to-top-css {
+  width: 40px !important;
+  height: 40px !important;
+  position: fixed;
+  right: 0px;
+  background: white;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  bottom: 20px;
+}
